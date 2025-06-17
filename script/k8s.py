@@ -29,4 +29,4 @@ for namespace in namespaces:
             with open(os.path.join(resource_dir, f"{res}.yaml"), "w") as yaml_file:
                 yaml_file.write(resource_yaml)
 
-        print(f"Exported manifests for {namespace}")
+        printe(f"Exported manifests for {namespace}")
